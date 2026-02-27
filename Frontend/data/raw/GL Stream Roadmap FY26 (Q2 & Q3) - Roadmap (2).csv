@@ -1,0 +1,77 @@
+AOP Goals until 31-Dec,Theme,Epic/Category,Summary,Status,PM,EM,Planned month of Release,Revised month of Release,Revised Quarter,Reason for Non Completion,Is Demo Required /Completed,Roadmap ID
+Global Launch,Strategic expansion,CCC - Global setup,"For KSA and Malaysia
+GL recon infra & GL recon enablement",Done,Aishwarya Viswanathan,Manish Tripathi,Jul'25,1-Jul-2025,Jul - Q2,,,
+Global Launch,Strategic expansion,CCC - Global setup,"For KSA and Malaysia
+One integration & GL schema setup
+UX changes for supporting Global requirements",Done,Aishwarya Viswanathan,Manish Tripathi,Jul'25,1-Jul-2025,Jul - Q2,,,
+Make the tax ops engine 'utility grade',Usage to Success,Clause 44,Purchase Invoice GL and GRN GL linkage for the purpose of Expense GL Recon,Done,Aishwarya Viswanathan,Manish Tripathi,Jul'25,1-Oct-2025,Oct - Q3,,,
+Make the tax ops engine 'utility grade',Usage to Success,Clause 44,Leverage GL data and expense recon to build Clause 44 report on product - EA,Done,Abhay Goyal,Lavish Agrawal,Sept'25,1-Oct-2025,Oct - Q3,,,
+Make the tax ops engine 'utility grade',Usage to Success,Clause 44,"UX changes
+- Expense TB view
+- Recon sub-buckets
+- Report Persistence",In Progress,Abhay Goyal,Lavish Agrawal,Jan'26,,Jan - Q4,,Yes,
+Make the tax ops engine 'utility grade',Usage to Success,GL Recon,GL Recon stability - Setting up test data and perf env to perform load testing,Done,Aishwarya Viswanathan,Rakesh Kakarlaparthi,Jul'25,1-Jul-2025,Jul - Q2,,,
+Make the tax ops engine 'utility grade',Usage to Success,GL Recon,Support for GSTIN-level GL Recons,To Do,Abhay Goyal,Rakesh Kakarlaparthi,Nov'25,1-Feb-2026,Feb - Q4,Limited capacity and GST recon items had to be solved on priority by the team here,,
+Make the tax ops engine 'utility grade',Usage to Success,GL Recon,Persist the last reconciliation results for each PAN/GSTIN entity,In Progress,Abhay Goyal,Rakesh Kakarlaparthi,Nov'25,1-Feb-2026,Feb - Q4,Limited capacity and GST recon items had to be solved on priority by the team here,Yes,
+Make the tax ops engine 'utility grade',Usage to Success,GL Recon,Upgrading S4 config to include ACDOCA fetch,Problem Solving,Abhay Goyal,Shriram Bhat,,1-Feb-2026,Feb - Q4,,,
+Make the tax ops engine 'utility grade',GA enablement,GL Recon,Unit testing for GL recon GA,At Risk,Abhay Goyal,Rakesh Kakarlaparthi,Aug'25,1-Apr-2026,FY27,,,
+Make the tax ops engine 'utility grade',Usage to Success,GL Recon,Enabling remarks on GL recon,Deferred,Abhay Goyal,Rakesh Kakarlaparthi,,,,,,
+Make the tax ops engine 'utility grade',GA enablement,GL Transformation,GL via UI Data Transformation via UI - GA : 5 build with CCC customers,Done,Aishwarya Viswanathan,Manish Tripathi,Aug'25,1-Nov-2025,Nov - Q3,,,
+GTM Levers,GTM,GL Transformation,POC enablement : Transformation via UI leveraging AI,Deferred,Aishwarya Viswanathan,Vinay Shashidhar,,,,,,
+Global Launch,Tech Debt,Global E-invoice,SFTP Crawler Redesign,Done,Rohit Khan,Manish Tripathi,Sept'25,1-Sep-2025,Sep - Q2,,,
+Global Launch,Strategic expansion,Global E-invoice,Data Transformation via SFTP for KSA,Done,Rohit Khan,Manish Tripathi,Aug'25,1-Oct-2025,Oct - Q3,,,
+Global Launch,Usage to Success,Global E-invoice,E-Invoice via GL Stream(Addon based) for Malaysia - SAP ECC/S4HANA,Done,Rohit Khan,Manish Tripathi,Sept'25,1-Oct-2025,Oct - Q3,,,
+Term Sheet,Additional Revenue,GLS Additional use cases,Term Sheet : 9/9C Automation : T14 and T15,Won't Do,Abhay Goyal,,,,Q4,,,
+Term Sheet,Additional Revenue,GLS Additional use cases,"Term Sheet : Something similar to Tally on wheels
+IS Reports
+Multi-entity consolidation
+Cost-centre analysis
+Ledger scrutiny",Won't Do,Abhay Goyal,,,,NA,,,
+Global Launch,Usage to Success,Global E-invoice,E-Invoice GL Stream DB connector,Done,Rohit Khan,Manish Tripathi,Sept'25,1-Oct-2025,Oct - Q3,,,
+Global Launch,Usage to Success,Global E-invoice,Einv Sync support for other connectors - Building claude skills for quick connector build outs,Problem Solving,Rohit Khan,Manish Tripathi,Jan'26,,Jan - Q4,,,
+Global Launch,Usage to Success,Global - Einvoice,Performance/Latency/Load Testing for sync flow,Done,Rohit Khan,Manish Tripathi,Feb'26,,Feb - Q4,,,
+Reduce infra costs,Cost Saving,One Integration,Mongo DB upgrade - Phase 1 (For FTP),Done,NA,Manish Tripathi,Sept'25,1-Sep-2025,Sep - Q2,,,
+Reduce infra costs,Cost Saving,One Integration,Mongo DB upgrade - Phase 2,Done,NA,Manish Tripathi,Sept'25,1-Sep-2025,Sep - Q2,,,
+Global Launch,Usage to Success,One Integration,Enabling alerts to handle FTP failures - Phase 1,Done,Rohit Khan,Manish Tripathi,Sept'25,1-Sep-2025,Sep - Q2,,,
+Global Launch,capex,Global E-invoice / Prism,Multiplexing - Use case - Support single ERPs multiple workspaces & multi extraction config support in Prism,In Progress,Rohit Khan,Manish Tripathi,Feb'26,"1-Feb-2026
+31-March-2026",Feb - Q4,,Yes,
+Make the tax ops engine 'utility grade',Usage to Success,One Integration,"Activity Logs - Enhancement - Phase 1 (Guest Access, transformation error log)",Done,Aishwarya Viswanathan,Manish Tripathi,Aug'25,30-Aug-2025,Aug - Q2,,,
+Make the tax ops engine 'utility grade',Usage to Success,One Integration,Support for handling voluminous data extraction through offset and limits,Done,Aishwarya Viswanathan,Manish Tripathi,Sept'25,1-Dec-2025,Dec - Q3,,,
+Make the tax ops engine 'utility grade',Usage to Success,One Integration,Automated retries for ELT failure,In Progress,Abhay Goyal,Manish Tripathi,Jan'26,1-March-2026,Jan - Q4,,No,
+Make the tax ops engine 'utility grade',Usage to Success,One Integration,Ingestion activity call backs moved to Queue Based to avoid false ingestion alerts,Done,Abhay Goyal,Manish Tripathi,Jan'26,,Jan - Q4,,,
+Make the tax ops engine 'utility grade',Usage to Success,One Integration,Data Transformation via SFTP for India and Malaysia,Done,Rohit Khan,Manish Tripathi,Jan'26,,Jan - Q4,,,
+Make the tax ops engine 'utility grade',Usage to Success,One Integration,Backfill solutioning for limit offset & migration strategy - Phase 2,In Progress,Aishwarya Viswanathan,Manish Tripathi,Jan'26,28-Feb-2026,Jan - Q4,,No,
+Make the tax ops engine 'utility grade',Cost Saving,One Integration,Autonomous integration agent EA - AI reasoning for recons & leveraging AI to fix configs & models,Done,NA,Shriram Bhat Febin Sathar,,31-Jan-2026,Jan - Q3,,,
+Global Launch,Usage to Success,One Integration,"Phase 2 - FTP alerts on new FTP architecture
+Validation failure visibility in SFTP and config management for FTP",Done,Rohit Khan,Manish Tripathi,,,Jan - Q4,,,
+Global Launch,Usage to Success,One Integration,Phase 2 - File Name convention support in Global SFTP,Done,Rohit Khan,Manish Tripathi,,,Jan - Q4,,,
+Global Launch,Usage to Success,One Integration,"Support Tools and Document closure  (Retool for Config Creation, Speciification documents etc)",In Progress,Rohit Khan,Manish Tripathi,,31-Mar-2026,Jan - Q4,,No,
+Global Launch,Strategic expansion,Global Recon,POC of new Global recon shape & validating the same with 10 customers,At Risk,Rohit Khan,,Feb'26,,Feb - Q4,,,
+Make the tax ops engine 'utility grade',capex,One Integration,Unit test cases & overall test coverages to 90%,Done,NA,Manish Tripathi,Nov'25,02-2026,Feb - Q4,,,
+Global Launch,Strategic expansion,One Integration,Advanced Ingestion API,Done,Rohit Khan,Manish Tripathi,Aug'25,1-Feb-2026,Feb - Q4,Documentation sign off pending,,
+Term Sheet,Additional Revenue,One Integration,GL Stream Add-on for Tally,Deferred,,,Oct '25,,,,,
+Make the tax ops engine 'utility grade',Usage to Success,One Integration,Integrate Clear Invoicing with One Integration Layer - PayTm specific; Most of the changes needed on Clear Invoicing side,Deferred,Abhay Goyal,Manish Tripathi,,,Mar - Q4,,,
+Make the tax ops engine 'utility grade',Usage to Success,One Integration,"Activity Logs - Enhancement - Phase 2 
+To address following issues
+1. Multi-period backfill
+2. Backfill should only with specific tables - this maybe needed for Prism",Problem Solving,Aishwarya Viswanathan,Manish Tripathi,,,Mar - Q4,,,
+Reduce infra costs,Cost Saving,One Integration,E-Invoice via GL Stream for INDIA - SAP ECC/S4HANA,Deferred,Rohit Khan,Manish Tripathi,Nov'25,30-Nov-2025,,,,
+Make the tax ops engine 'utility grade',Usage to Success,One Integration,"Ability to controls whitelisting, blacklisting document types, for filtering data - through parameterised inputs
+",To Do,Aishwarya Viswanathan,,,,Mar - Q4,,,
+Make the tax ops engine 'utility grade',Usage to Success,One Integration - Writeback,Generic API for ERPs to consume Payment block results,Done,Rohit Khan,Manish Tripathi,Jul'25,1-Jul-2025,Jul - Q2,,,
+Make the tax ops engine 'utility grade',Usage to Success,One Integration - Writeback,PB API for MS F&O,Done,Rohit Khan,Manish Tripathi,Oct '25,1-Oct-2025,Oct - Q3,,,
+Build Data Lake,Strategic expansion,Prism,Prism - Supporting table persistence and creation and integration with CTAI,Done,Aishwarya Viswanathan,Febin Sathar,Dec'25,,Dec - Q3,,,
+Build Data Lake,Strategic expansion,Prism,"Support Report extractions from ERP via GL Stream
+Add-on changes to be generic enough that it can support any T-code and not specific T-code. If needs whitelisting - support multiple BAPIs. Avoid future add-on changes",Problem Solving,Aishwarya Viswanathan,,Feb'26,,Feb - Q4,,,
+Build Data Lake,Strategic expansion,Prism,"We need to have some checks to check if mirror is out of sync - Driver table, Pseudo table, master table - sync trategy dependency
+Use case 1: ERP TB with SaaS TB",Problem Solving,Aishwarya Viswanathan,,Feb'26,,Feb - Q4,,,
+Build Data Lake,Strategic expansion,Prism,Separation of Raw table persistence and transformation module,To Do,Aishwarya Viswanathan,Febin Sathar,Feb'26,,Feb - Q4,,,
+Build Data Lake,Strategic expansion,Prism,Pipeline registration to Prism,To Do,Aishwarya Viswanathan,Febin Sathar,Feb'26,,Feb - Q4,,,
+Build Data Lake,Strategic expansion,Prism,Prism Access control,Problem Solving,Aishwarya Viswanathan,Febin Sathar,Feb'26,,Feb - Q4,,,
+Build Data Lake,Strategic expansion,Prism,Connector marketplace ,To Do,Aishwarya Viswanathan,Febin Sathar,Feb'26,,Feb - Q4,,,
+Build Data Lake,Strategic expansion,Prism,Build Prism capability to handle connector onboarding & access policy management etc,Problem Solving,Aishwarya Viswanathan,Febin Sathar,Mar'26,,Mar - Q4,,,
+Build Data Lake,Strategic expansion,Prism,"Config versioning - Extraction & Transformation config
+Maintain a protocol support matrix
+ERP version, Query Config payload version, addon version, data posting payload version, payload version , command support list, geo specific etc",To Do,Aishwarya Viswanathan,Manish Tripathi Febin Sathar,Mar'26,,FY27,,,
+Build Data Lake,Strategic expansion,Prism,POC : Migration of current CCC transformation to Prism transformation,To Do,Aishwarya Viswanathan,,Apr'26,,FY27,,,
+Build Data Lake,Usage to Success,Prism,Transformation config on SaaS - to enable doc trace,Problem Solving,Aishwarya Viswanathan,,Apr'26,,FY27,Design to be revisited with Prism,,

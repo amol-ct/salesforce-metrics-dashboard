@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FY26 CCC Roadmap Dashboard</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="bg-shape bg-shape-1"></div>
+  <div class="bg-shape bg-shape-2"></div>
+
+  <main class="page">
+    <header class="hero">
+      <div class="top-userbar">
+        <button id="notifyBtn" class="move-btn notify-btn" type="button" title="Notifications">
+          Notifications <span id="notifyCount" class="notify-count">0</span>
+        </button>
+        <span id="roleBadge" class="profile-email">Role: view</span>
+        <button id="inviteUserBtn" class="move-btn" type="button">Invite User</button>
+        <button id="manageUsersBtn" class="move-btn" type="button">Manage Roles</button>
+        <span id="profileEmail" class="profile-email">My Profile</span>
+        <button id="logoutBtn" class="move-btn" type="button">Logout</button>
+      </div>
+      <div id="notifyPanel" class="notify-panel hidden"></div>
+      <p class="eyebrow">ClearTax FY26</p>
+      <h1>CCC Roadmap Dashboard</h1>
+      <p class="sub">Annual + quarterly roadmap progress across DT, GL Stream, IDT, and Notice Tracker.</p>
+
+      <div class="filters">
+        <label>
+          Product
+          <select id="productFilter"></select>
+        </label>
+        <label>
+          Quarter (Drilldown)
+          <select id="quarterFilter">
+            <option value="ALL">All</option>
+            <option value="Q1">Q1</option>
+            <option value="Q2">Q2</option>
+            <option value="Q3">Q3</option>
+            <option value="Q4">Q4</option>
+            <option value="Unassigned">Unassigned</option>
+          </select>
+        </label>
+        <label>
+          Status (Drilldown)
+          <select id="statusFilter" multiple size="1">
+            <option value="ALL">All</option>
+          </select>
+        </label>
+      </div>
+    </header>
+
+    <section class="kpis" id="kpiCards"></section>
+
+    <section class="grid-two">
+      <article class="panel">
+        <div class="panel-head">
+          <h2>Capability wise status</h2>
+        </div>
+        <div id="productProgress"></div>
+      </article>
+
+      <article class="panel">
+        <div class="panel-head">
+          <h2>Quarterly Progress Matrix</h2>
+        </div>
+        <div class="table-wrap">
+          <table id="quarterMatrix"></table>
+        </div>
+      </article>
+    </section>
+
+    <section class="panel">
+      <details class="section-collapse" id="roadmapSectionCollapse">
+        <summary class="section-summary">
+          <span><strong>Roadmap Items</strong></span>
+          <span id="drilldownMeta"></span>
+        </summary>
+        <div class="roadmap-filters">
+          <div class="filter-action">
+            <select id="allActionsSelect">
+              <option value="">All Actions</option>
+              <option value="add">Add Item</option>
+              <option value="export">Export Excel</option>
+            </select>
+          </div>
+          <label>
+            Product
+            <select id="roadmapProductFilter">
+              <option value="ALL">All</option>
+            </select>
+          </label>
+          <label>
+            Quarter
+            <select id="roadmapQuarterFilter">
+              <option value="ALL">All</option>
+            </select>
+          </label>
+          <label>
+            Status
+            <select id="roadmapStatusFilter" multiple size="1">
+              <option value="ALL">All</option>
+            </select>
+          </label>
+          <label>
+            Theme
+            <select id="roadmapThemeFilter">
+              <option value="ALL">All</option>
+            </select>
+          </label>
+          <label>
+            Owner
+            <select id="roadmapOwnerFilter">
+              <option value="ALL">All</option>
+            </select>
+          </label>
+          <label>
+            Moved
+            <select id="roadmapMovedFilter">
+              <option value="ALL">All</option>
+              <option value="MOVED">Moved</option>
+              <option value="NOT_MOVED">Not Moved</option>
+            </select>
+          </label>
+          <label>
+            Search Keyword
+            <input id="roadmapSearch" type="text" placeholder="Type keyword..." />
+          </label>
+        </div>
+        <div id="drilldown"></div>
+      </details>
+    </section>
+
+    <section>
+      <article class="panel">
+        <details class="section-collapse">
+          <summary class="section-summary">
+            <span><strong>Feature request raised on salesforce</strong></span>
+            <div style="display: flex; align-items: center; gap: 12px;">
+              <span id="clusterMeta"></span>
+              <button id="addClusterItemBtn" class="move-btn" type="button" style="display:none">+ Add Item</button>
+              <button id="downloadSFDataBtn" class="sf-download-btn" type="button">Download SF Data</button>
+              <button id="uploadSFDataBtn" class="sf-upload-btn" type="button">Upload SF Data</button>
+              <input id="uploadSFDataInput" type="file" accept=".xlsx,.xls" style="display: none;" />
+            </div>
+          </summary>
+          <div class="roadmap-filters">
+            <label>
+              Product
+              <select id="clusterProductFilter">
+                <option value="ALL">All</option>
+              </select>
+            </label>
+            <label>
+              Data Scope
+              <select id="clusterJiraFilter">
+                <option value="ALL">All</option>
+                <option value="ONLY_JIRA">Only JIRA</option>
+              </select>
+            </label>
+            <label>
+              Verdict
+              <select id="clusterVerdictFilter">
+                <option value="ALL">All</option>
+                <option value="SHIPPED">SHIPPED</option>
+                <option value="POSSIBLY_SHIPPED">POSSIBLY_SHIPPED</option>
+                <option value="NOT_SHIPPED">NOT_SHIPPED</option>
+                <option value="N/A">N/A</option>
+              </select>
+            </label>
+            <label>
+              Move Status
+              <select id="clusterMovedFilter">
+                <option value="ALL">All</option>
+                <option value="NOT_MOVED">Not Moved</option>
+                <option value="MOVED">Moved</option>
+              </select>
+            </label>
+            <label>
+              Search Keyword
+              <input id="clusterSearch" type="text" placeholder="Type keyword..." />
+            </label>
+          </div>
+          <div class="table-wrap">
+            <table id="combinedClusterTable"></table>
+          </div>
+        </details>
+      </article>
+    </section>
+  </main>
+
+  <div id="editModal" class="modal hidden" aria-hidden="true">
+    <div class="modal-backdrop" data-modal-close="true"></div>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="editModalTitle">
+      <div class="modal-head">
+        <h3 id="editModalTitle">Edit Roadmap Item</h3>
+        <button id="editModalClose" class="move-btn" type="button">Close</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-grid">
+          <label>Product<input id="editProduct" type="text" /></label>
+          <label>Hierarchy<input id="editHierarchy" type="text" /></label>
+          <label>Stack Rank<input id="editStackRank" type="text" /></label>
+          <label>Status<select id="editStatus"></select></label>
+          <label>Owner<input id="editOwner" type="text" /></label>
+          <label>Quarter
+            <select id="editQuarter">
+              <option value="Q1">Q1</option>
+              <option value="Q2">Q2</option>
+              <option value="Q3">Q3</option>
+              <option value="Q4">Q4</option>
+              <option value="Unassigned">Unassigned</option>
+            </select>
+          </label>
+          <label>Theme<input id="editTheme" type="text" /></label>
+          <label>Priority<input id="editPriority" type="text" /></label>
+          <label>Prod Date<input id="editProdDate" type="text" /></label>
+          <label>Old Prod Date<input id="editOldProdDate" type="text" /></label>
+          <label>Customer Facing Date<input id="editCustomerDate" type="text" /></label>
+          <label class="span-2">AOP Goal<input id="editAopGoal" type="text" /></label>
+          <label class="span-2">Summary<input id="editTitle" type="text" /></label>
+          <label class="span-2">Description<textarea id="editDescription"></textarea></label>
+        </div>
+      </div>
+      <div class="modal-foot">
+        <button id="editModalCancel" class="move-btn" type="button">Cancel</button>
+        <button id="editModalSave" class="move-btn" type="button">Save</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="clusterDetailModal" class="modal hidden" aria-hidden="true">
+    <div class="modal-backdrop" data-cluster-modal-close="true"></div>
+    <div class="modal-card modal-card-xl" role="dialog" aria-modal="true" aria-labelledby="clusterDetailTitle">
+      <div class="modal-head">
+        <h3 id="clusterDetailTitle">Customer Ask Details</h3>
+        <button id="clusterDetailClose" class="move-btn" type="button">Close</button>
+      </div>
+      <div class="modal-body">
+
+        <!-- ── Header: badges + cluster name ── -->
+        <div class="cdet-header">
+          <div class="cdet-badges">
+            <span id="cdetProduct" class="cdet-product-badge"></span>
+            <span id="cdetPriority" class="cdet-priority-badge"></span>
+            <span id="cdetVerdict" class="cdet-verdict-badge"></span>
+          </div>
+          <h4 id="cdetLabel" class="cdet-label"></h4>
+          <p id="cdetId" class="cdet-id"></p>
+        </div>
+
+        <!-- ── What customers are asking ── -->
+        <div class="cdet-section">
+          <h5 class="cdet-section-title">What Customers Are Asking</h5>
+          <p id="cdetDesc" class="cdet-desc-text"></p>
+        </div>
+
+        <!-- ── Impact stat chips ── -->
+        <div id="cdetStats" class="cdet-stats-row"></div>
+
+        <!-- ── Customers affected ── -->
+        <div class="cdet-section">
+          <h5 class="cdet-section-title">Customers Affected</h5>
+          <p id="cdetCustomers" class="cdet-customer-names"></p>
+        </div>
+
+        <!-- ── Individual tickets ── -->
+        <div class="cluster-tickets-section">
+          <div class="cluster-tickets-heading">
+            <h4>Individual Tickets</h4>
+            <span id="clusterDetailTicketsCount" class="cluster-tickets-count"></span>
+          </div>
+          <div id="clusterDetailTicketsList" class="cluster-tickets-list">
+            <p class="cluster-tickets-loading">Loading tickets…</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="prdModal" class="modal hidden" aria-hidden="true">
+    <div class="modal-backdrop" data-prd-modal-close="true"></div>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="prdTitle">
+      <div class="modal-head">
+        <h3 id="prdTitle">PRD Document</h3>
+        <button id="prdClose" class="move-btn" type="button">Close</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-grid">
+          <label class="span-2">PRD<textarea id="prdContent" readonly></textarea></label>
+        </div>
+        <div id="prdViewImages" class="prd-image-view-section" style="display:none">
+          <h5 class="cdet-section-title" style="margin-top:14px">Attachments</h5>
+          <div id="prdViewImageGrid" class="prd-image-previews"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="prdInputModal" class="modal hidden" aria-hidden="true">
+    <div class="modal-backdrop" data-prd-input-modal-close="true"></div>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="prdInputTitle">
+      <div class="modal-head">
+        <h3 id="prdInputTitle">Generate PRD Inputs</h3>
+        <button id="prdInputClose" class="move-btn" type="button">Close</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-grid">
+          <label class="span-2">PRD Description
+            <textarea id="prdInputDescription" placeholder="Add context, expected behavior, constraints..."></textarea>
+          </label>
+          <label class="span-2">Attachments (Images, PDFs, Word, Excel&hellip;)
+            <div id="prdImageDropzone" class="prd-image-dropzone">
+              <span class="prd-dropzone-hint">Drop files here, paste (Ctrl+V), or <button type="button" id="prdImageUploadBtn" class="prd-upload-link">browse files</button></span>
+              <input type="file" id="prdImageInput" accept="image/*,.pdf,.doc,.docx,.xls,.xlsx,.ppt,.pptx,.txt,.csv,.md" multiple style="display:none" />
+            </div>
+            <div id="prdImagePreviews" class="prd-image-previews"></div>
+          </label>
+          <label class="span-2">Video Link
+            <input id="prdInputVideoLink" type="text" placeholder="https://..." />
+          </label>
+          <label class="span-2">Customer Requirement PDF/Doc Link
+            <input id="prdInputDocLink" type="text" placeholder="https://... (PDF or doc link)" />
+          </label>
+          <label class="span-2">
+            <input id="prdInputUseFallback" type="checkbox" />
+            If above details are not available, generate possible PRD based on guides/release notes.
+          </label>
+        </div>
+      </div>
+      <div class="modal-foot">
+        <button id="prdInputCancel" class="move-btn" type="button">Cancel</button>
+        <button id="prdInputGenerate" class="move-btn" type="button">Generate PRD</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="inviteModal" class="modal hidden" aria-hidden="true">
+    <div class="modal-backdrop" data-invite-modal-close="true"></div>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="inviteTitle">
+      <div class="modal-head">
+        <h3 id="inviteTitle">Invite User</h3>
+        <button id="inviteClose" class="move-btn" type="button">Close</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-grid">
+          <label class="span-2">Email
+            <input id="inviteEmail" type="email" placeholder="user@example.com" />
+          </label>
+          <label class="span-2">Requested Role
+            <select id="inviteRole">
+              <option value="view">View User</option>
+              <option value="edit">Edit User</option>
+              <option value="admin">Admin</option>
+            </select>
+          </label>
+          <label class="span-2">Invite Link
+            <textarea id="inviteLink" readonly></textarea>
+          </label>
+        </div>
+      </div>
+      <div class="modal-foot">
+        <button id="inviteSend" class="move-btn" type="button">Create Invite</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="userMgmtModal" class="modal hidden" aria-hidden="true">
+    <div class="modal-backdrop" data-user-mgmt-close="true"></div>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="userMgmtTitle">
+      <div class="modal-head">
+        <h3 id="userMgmtTitle">Role Management</h3>
+        <button id="userMgmtClose" class="move-btn" type="button">Close</button>
+      </div>
+      <div class="modal-body">
+        <div class="table-wrap">
+          <table id="userMgmtTable"></table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="addClusterModal" class="modal hidden" aria-hidden="true">
+    <div class="modal-backdrop" data-add-cluster-modal-close="true"></div>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="addClusterModalTitle">
+      <div class="modal-head">
+        <h3 id="addClusterModalTitle">Add Requirement to Top Ranked</h3>
+        <button id="addClusterModalClose" class="move-btn" type="button">Close</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-grid">
+          <label class="span-2">Requirement Title <span style="color:#ef4444">*</span>
+            <input id="acLabel" type="text" placeholder="e.g. Allow bulk export of GSTR-2B data" />
+          </label>
+          <label>Product <span style="color:#ef4444">*</span>
+            <select id="acProduct"></select>
+          </label>
+          <label>Priority
+            <select id="acPriority">
+              <option value="">— Select —</option>
+              <option value="Critical">Critical</option>
+              <option value="High">High</option>
+              <option value="Medium">Medium</option>
+              <option value="Low">Low</option>
+            </select>
+          </label>
+          <label>Customer Count
+            <input id="acCustomerCount" type="number" min="0" placeholder="0" />
+          </label>
+          <label>Ticket Count
+            <input id="acTicketCount" type="number" min="0" placeholder="0" />
+          </label>
+          <label>Account Active ARR (₹)
+            <input id="acArr" type="number" min="0" placeholder="0" />
+          </label>
+          <label>Customer Names (comma-separated)
+            <input id="acCustomerNames" type="text" placeholder="Acme Corp, Globex Inc…" />
+          </label>
+          <label class="span-2">Description
+            <textarea id="acDescription" placeholder="Describe the customer requirement in detail…"></textarea>
+          </label>
+          <label class="span-2">Representative Examples
+            <textarea id="acExamples" placeholder="Example customer quotes or ticket titles…"></textarea>
+          </label>
+        </div>
+      </div>
+      <div class="modal-foot">
+        <button id="addClusterModalCancel" class="move-btn" type="button">Cancel</button>
+        <button id="addClusterModalSave" class="move-btn" type="button">Add to Top Ranked</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="capabilityTooltip" class="capability-tooltip hidden" aria-hidden="true"></div>
+
+  <script src="./app.js" type="module"></script>
+</body>
+</html>

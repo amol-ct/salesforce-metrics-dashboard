@@ -1,0 +1,18 @@
+{
+  "users": {
+    "aditya.jaiswal@clear.in": {
+      "email": "aditya.jaiswal@clear.in",
+      "salt": "1f2ff0cf90b372f33349a07fa9166dfc",
+      "password_hash": "Jx9hE8KEQzezpfOiBsW-14zTGPwLSuolwvMVstuCCZE",
+      "created_at": 1772111993,
+      "role": "admin"
+    },
+    "amol.mittal@clear.in": {
+      "email": "amol.mittal@clear.in",
+      "salt": "da7eaef484bf42f7eb80e81a9d7848f7",
+      "password_hash": "37W0ZlzPppf8_ghvNg8P1keSyLT5YSGgpBL5Pp_XfOk",
+      "role": "view",
+      "created_at": 1772118930
+    }
+  }
+}

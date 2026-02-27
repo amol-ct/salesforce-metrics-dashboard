@@ -1,0 +1,14 @@
+{
+  "invites": {
+    "M6TKhbrVTtbmJER05w8tunN32rBORMzM": {
+      "token": "M6TKhbrVTtbmJER05w8tunN32rBORMzM",
+      "email": "amol.mittal@clear.in",
+      "role": "view",
+      "requested_role": "view",
+      "invited_by": "aditya.jaiswal@clear.in",
+      "invited_by_role": "admin",
+      "status": "pending",
+      "created_at": 1772114222
+    }
+  }
+}

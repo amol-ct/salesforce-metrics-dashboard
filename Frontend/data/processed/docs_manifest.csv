@@ -1,0 +1,3 @@
+doc_id,product,doc_type,title,url_or_path,published_date,version,section_hints
+DOC-CFC-RN,Clear Finance Cloud,release_notes,Release Notes - Clear Finance Cloud,https://docs.cleartax.in/product-help-and-support/clear-finance-cloud/release-notes-clear-finance-cloud,,,"release notes, versions, fixes, features"
+DOC-CT-HELP,ClearTax Products,product_guide,Product Help and Support,https://docs.cleartax.in/product-help-and-support,,,"product guides, setup, how-to, modules"

@@ -1,0 +1,165 @@
+{
+  "events": [
+    {
+      "ts": 1772114222,
+      "actor_email": "aditya.jaiswal@clear.in",
+      "action": "invite_user",
+      "target_row_id": "",
+      "details": "Invited amol.mittal@clear.in as view"
+    },
+    {
+      "ts": 1772114817,
+      "actor_email": "aditya.jaiswal@clear.in",
+      "action": "add_row",
+      "target_row_id": "MANUAL-1772114817642",
+      "details": "Added roadmap item: IDT | Data preparation | Reconciliation - delivery reconciliation also"
+    },
+    {
+      "ts": 1772118930,
+      "actor_email": "anonymous",
+      "action": "register",
+      "target_row_id": "",
+      "details": "New account registered: amol.mittal@clear.in"
+    },
+    {
+      "ts": 1772118936,
+      "actor_email": "amol.mittal@clear.in",
+      "action": "logout",
+      "target_row_id": "",
+      "details": "User logged out: amol.mittal@clear.in"
+    },
+    {
+      "ts": 1772118951,
+      "actor_email": "anonymous",
+      "action": "login",
+      "target_row_id": "",
+      "details": "User logged in: aditya.jaiswal@clear.in"
+    },
+    {
+      "ts": 1772130981,
+      "actor_email": "anonymous",
+      "action": "login",
+      "target_row_id": "",
+      "details": "User logged in: aditya.jaiswal@clear.in"
+    },
+    {
+      "ts": 1772135673,
+      "actor_email": "aditya.jaiswal@clear.in",
+      "action": "login",
+      "target_row_id": "",
+      "details": "User logged in: aditya.jaiswal@clear.in"
+    },
+    {
+      "ts": 1772135771,
+      "actor_email": "aditya.jaiswal@clear.in",
+      "action": "login",
+      "target_row_id": "",
+      "details": "User logged in: aditya.jaiswal@clear.in"
+    },
+    {
+      "ts": 1772136336,
+      "actor_email": "aditya.jaiswal@clear.in",
+      "action": "login",
+      "target_row_id": "",
+      "details": "User logged in: aditya.jaiswal@clear.in"
+    },
+    {
+      "ts": 1772137225,
+      "actor_email": "aditya.jaiswal@clear.in",
+      "action": "login",
+      "target_row_id": "",
+      "details": "User logged in: aditya.jaiswal@clear.in"
+    },
+    {
+      "ts": 1772137926,
+      "actor_email": "aditya.jaiswal@clear.in",
+      "action": "login",
+      "target_row_id": "",
+      "details": "User logged in: aditya.jaiswal@clear.in"
+    },
+    {
+      "ts": 1772138150,
+      "actor_email": "aditya.jaiswal@clear.in",
+      "action": "login",
+      "target_row_id": "",
+      "details": "User logged in: aditya.jaiswal@clear.in"
+    },
+    {
+      "ts": 1772138888,
+      "actor_email": "aditya.jaiswal@clear.in",
+      "action": "login",
+      "target_row_id": "",
+      "details": "User logged in: aditya.jaiswal@clear.in"
+    },
+    {
+      "ts": 1772139139,
+      "actor_email": "aditya.jaiswal@clear.in",
+      "action": "login",
+      "target_row_id": "",
+      "details": "User logged in: aditya.jaiswal@clear.in"
+    },
+    {
+      "ts": 1772139697,
+      "actor_email": "aditya.jaiswal@clear.in",
+      "action": "login",
+      "target_row_id": "",
+      "details": "User logged in: aditya.jaiswal@clear.in"
+    },
+    {
+      "ts": 1772140330,
+      "actor_email": "aditya.jaiswal@clear.in",
+      "action": "login",
+      "target_row_id": "",
+      "details": "User logged in: aditya.jaiswal@clear.in"
+    },
+    {
+      "ts": 1772140511,
+      "actor_email": "aditya.jaiswal@clear.in",
+      "action": "login",
+      "target_row_id": "",
+      "details": "User logged in: aditya.jaiswal@clear.in"
+    },
+    {
+      "ts": 1772141348,
+      "actor_email": "aditya.jaiswal@clear.in",
+      "action": "login",
+      "target_row_id": "",
+      "details": "User logged in: aditya.jaiswal@clear.in"
+    },
+    {
+      "ts": 1772145495,
+      "actor_email": "aditya.jaiswal@clear.in",
+      "action": "login",
+      "target_row_id": "",
+      "details": "User logged in: aditya.jaiswal@clear.in"
+    },
+    {
+      "ts": 1772145842,
+      "actor_email": "aditya.jaiswal@clear.in",
+      "action": "add_row",
+      "target_row_id": "MANUAL-1772145842054",
+      "details": "Added roadmap item: Test"
+    },
+    {
+      "ts": 1772145883,
+      "actor_email": "aditya.jaiswal@clear.in",
+      "action": "delete_row",
+      "target_row_id": "MANUAL-1772145842054",
+      "details": "Deleted roadmap item by admin aditya.jaiswal@clear.in"
+    },
+    {
+      "ts": 1772145951,
+      "actor_email": "aditya.jaiswal@clear.in",
+      "action": "update_row",
+      "target_row_id": "GL Stream Roadmap FY26 (Q2 & Q3) - Roadmap (2)-7",
+      "details": "Updated roadmap item fields"
+    },
+    {
+      "ts": 1772146417,
+      "actor_email": "aditya.jaiswal@clear.in",
+      "action": "update_row",
+      "target_row_id": "DT Roadmap FY26 (Q2 & Q3) - Roadmap (1)-43",
+      "details": "Updated roadmap item fields"
+    }
+  ]
+}

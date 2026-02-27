@@ -1,0 +1,6 @@
+roadmap_item_id,product,hierarchy_level,parent_id,title,description,status,percent_complete,start_date,end_date,target_quarter,owner,source_system,source_key
+R-1001,Product A,Theme,,Reporting Experience,Improve reporting workflows,In Progress,40,2026-01-10,2026-06-30,Q2,pm_a,Jira,PA-EPIC-12
+R-1002,Product A,Initiative,R-1001,Export Enhancements,Enable multiple export formats,Not Started,0,2026-04-01,2026-08-30,Q3,pm_a,Jira,PA-EPIC-27
+R-2001,Product B,Theme,,Identity and Access,Enterprise auth and governance,Done,100,2026-01-05,2026-03-15,Q1,pm_b,AzureDevOps,PB-FEAT-9
+R-3001,Product C,Epic,,Workflow Automation,Reduce manual operations,In Progress,60,2026-02-01,2026-12-10,Q4,pm_c,Jira,PC-EPIC-7
+R-4001,Product D,Initiative,,Mobile Reliability,Improve mobile stability,In Progress,25,2026-01-20,2026-05-31,Q2,pm_d,Asana,PD-PROJ-16

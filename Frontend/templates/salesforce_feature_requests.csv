@@ -1,0 +1,4 @@
+request_id,created_date,last_updated,status,title,description,account_id,account_name,customer_segment,product,priority,severity,ticket_count,active_asset_value,asset_currency,tags
+SF-001,2026-01-03,2026-02-02,Open,Export reports to CSV,Need CSV export from report builder,ACC-100,Acme Health,Enterprise,Product A,High,Major,12,850000,USD,"reporting;export"
+SF-002,2026-01-18,2026-02-10,Open,SAML SSO support,Please add SAML 2.0 for Okta integration,ACC-240,Beta Manufacturing,Mid-Market,Product B,High,Critical,8,250000,USD,"auth;sso"
+SF-003,2026-02-01,2026-02-14,Open,Download tabular results,Users need spreadsheet download in analytics,ACC-100,Acme Health,Enterprise,Product A,Medium,Major,3,850000,USD,"analytics;export"

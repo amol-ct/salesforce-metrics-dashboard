@@ -1,0 +1,130 @@
+request_id,cluster_id,cluster_label
+1059861,SEM-0001,[IDT] — Filing status of Quarterly filers
+1071346,SEM-0002,[IDT] — Group ID locking
+1074215,SEM-0003,[IDT] — Ozonetel Call: 919845097174 | UCID: 24068387531106302 | Date: 14/01...
+1072757,SEM-0003,[IDT] — Ozonetel Call: 919845097174 | UCID: 24068387531106302 | Date: 14/01...
+1077476,SEM-0003,[IDT] — Ozonetel Call: 919845097174 | UCID: 24068387531106302 | Date: 14/01...
+1047913,SEM-0003,[IDT] — Ozonetel Call: 919845097174 | UCID: 24068387531106302 | Date: 14/01...
+1062813,SEM-0003,[IDT] — Ozonetel Call: 919845097174 | UCID: 24068387531106302 | Date: 14/01...
+1054939,SEM-0003,[IDT] — Ozonetel Call: 919845097174 | UCID: 24068387531106302 | Date: 14/01...
+1073902,SEM-0003,[IDT] — Ozonetel Call: 919845097174 | UCID: 24068387531106302 | Date: 14/01...
+1064510,SEM-0003,[IDT] — Ozonetel Call: 919845097174 | UCID: 24068387531106302 | Date: 14/01...
+1077144,SEM-0003,[IDT] — Ozonetel Call: 919845097174 | UCID: 24068387531106302 | Date: 14/01...
+1081562,SEM-0003,[IDT] — Ozonetel Call: 919845097174 | UCID: 24068387531106302 | Date: 14/01...
+1049280,SEM-0003,[IDT] — Ozonetel Call: 919845097174 | UCID: 24068387531106302 | Date: 14/01...
+1059868,SEM-0004,[IDT] — GSTR-1A Download
+1047229,SEM-0005,[IDT] — Data upload GSTR 6
+1066276,SEM-0006,[IDT] — Restrict action on Time barred Invoice
+1047207,SEM-0007,[IDT] — B2C supplies
+1060012,SEM-0008,[IDT] — Reconciliation of E-way bill should also happen separately with del...
+1049134,SEM-0008,[IDT] — Reconciliation of E-way bill should also happen separately with del...
+1046630,SEM-0009,[IDT] — Feature Request - Provide a summary of the Tax values of all the li...
+1055521,SEM-0010,[GL Stream] — In GL Recon - Individual Tax values to be shown
+1054750,SEM-0010,[GL Stream] — In GL Recon - Individual Tax values to be shown
+1079789,SEM-0010,[GL Stream] — In GL Recon - Individual Tax values to be shown
+1075764,SEM-0011,"[IDT] — Limit ""Recalculate Payment Recommendation"" to only the selected inv..."
+1056355,SEM-0012,[DT] — 26AS recon manual linking feature
+1074414,SEM-0013,[IDT] — Ingestion of ISD Documents via Clear Purchase Template
+1058897,SEM-0014,[IDT] — GSTR -1A Filing Tab Not showing in Filing Tracker Report
+1063902,SEM-0015,"[IDT] — Feature Request : Add new columns ITC Claim (as per 8A) , ITC Claim..."
+1078187,SEM-0016,[IDT] — Feature Request - Cash Ledger Report & ITC Credit Ledger Report
+1047238,SEM-0016,[IDT] — Feature Request - Cash Ledger Report & ITC Credit Ledger Report
+1047228,SEM-0016,[IDT] — Feature Request - Cash Ledger Report & ITC Credit Ledger Report
+1081933,SEM-0017,[IDT] — IMS Console - Warning flag
+1040129,SEM-0018,[IDT] — Feature Request - Acceptance of TDS/ TCS Credits
+1074578,SEM-0018,[IDT] — Feature Request - Acceptance of TDS/ TCS Credits
+1067382,SEM-0019,[IDT] — Feature Request
+1077811,SEM-0020,[IDT] — Ineligible ITC column in 2B vs PR Recon
+1077812,SEM-0020,[IDT] — Ineligible ITC column in 2B vs PR Recon
+1062931,SEM-0021,[IDT] — Feature request : Data Overview | Import History
+1047224,SEM-0022,[IDT] — Pending RCM Liability Statement
+1052340,SEM-0023,[IDT] — GST report requirements from Clear Tax
+1079123,SEM-0024,[IDT] — Bulk error file should show either ingestion error which are only p...
+1077817,SEM-0025,[IDT] — Warning sign if any doc which is claimed in recon is changed/amende...
+1077836,SEM-0026,"[IDT] — Require unique remarks of ""Mismatched Fields"" after considering thr..."
+1061411,SEM-0027,[IDT] — Supplier Name Prefix Filter Not Returning Results in Data Overview
+1068429,SEM-0028,[IDT] — Feature Request - Provide the option to ingest the GSTR-9/9C data w...
+1052293,SEM-0029,[IDT] — Supply type Bifurcation
+1058905,SEM-0030,[IDT] — DSC signing on auto-generated ISD distribution invoice PDFs
+1075763,SEM-0031,[IDT] — Need change in document level rules for Missing and Mismatch vouchers
+1061414,SEM-0032,[IDT] — Request for Validation of Advance Amendment Auto-Population Functio...
+1079764,SEM-0033,[GL Stream] — Single recon for Revenue GL and Output tax GL
+1082783,SEM-0034,[IDT] — Feature Request for Reject Action in GSTR 2B vs PR Reconciliation
+1073236,SEM-0035,[IDT] — Rule 43 Automatic reversal computation in GSTR 3B
+1056511,SEM-0036,[IDT] — Activation of Duplication layer in data overview for Purchase
+1056512,SEM-0036,[IDT] — Activation of Duplication layer in data overview for Purchase
+1037231,SEM-0037,[GL Stream] — GL Type Column in GL Stream
+1060581,SEM-0038,"[IDT] — Voucher date column in 2A v/s PR, 2B v/s PR Report"
+1077823,SEM-0039,[IDT] — Reconciliation Result dashboard - As per Trent Remark.
+1081916,SEM-0040,[IDT] — Bulk error report
+1079012,SEM-0041,[IDT] — Remove the Group id and group remarks feature in 2A vs PR Recon
+1047208,SEM-0042,[IDT] — Missing MY GSTIN check
+1071385,SEM-0043,[IDT] — Give GSTR-9 table 6 references in table 4 snapshot report
+1061396,SEM-0044,[IDT] — Option of Advance Amendment as Document Type using CT Sales Template
+1061408,SEM-0044,[IDT] — Option of Advance Amendment as Document Type using CT Sales Template
+1073234,SEM-0045,[IDT] — Annual Return (GSTR 9/9C)
+1077839,SEM-0046,[IDT] — Provide complete PR Register and it should match with filed GSTR-3B...
+1050509,SEM-0047,[Notice Tracker] — Feature Request for Notice Management
+1065089,SEM-0048,[IDT] — Recon Report Without Rerunning Recon
+1073237,SEM-0049,[IDT] — Reports - Enablement of Multi-PAN selection option
+1050892,SEM-0050,[IDT] — PR Documents coming in Individual Error Report but missing in Bulk...
+1082781,SEM-0051,[IDT] — Feature Request for GSTR 2B vs PR Reconciliation
+1077837,SEM-0052,[IDT] — Freeze Reconciliation Result with line item from FY 23-24 till date.
+1041607,SEM-0053,[IDT] — Validation for Recipient billing state and state code should be same
+1079931,SEM-0054,[IDT] — Feature Request - Availability of Electronic Liability Ledger
+1047225,SEM-0054,[IDT] — Feature Request - Availability of Electronic Liability Ledger
+1079106,SEM-0055,[IDT] — Rule 37 (180 Day) - Our platform should highlight the cases where p...
+1049601,SEM-0056,"[IDT] — Feature request - Provide visibility about ""Upload Status"" of docum..."
+1047234,SEM-0057,[IDT] — Bulk Filing option for TCS registration
+1057975,SEM-0058,[IDT] — 2B vs PR Recon visiblity
+1040072,SEM-0059,"[IDT] — Maintain the details of ITC claimed, ITC reversed under 180 days an..."
+1077807,SEM-0060,[IDT] — Documents should not merge
+1058890,SEM-0061,[IDT] — GSTR-6 SEZ Recipient Bifurcation while gnerating ISD documents
+1047209,SEM-0062,[IDT] — E-invoice reconciliation
+1040496,SEM-0063,[IDT] — Consolidated file instead of split files
+1079014,SEM-0064,[IDT] — removal of g1/G3B filing status in 2A vs PR Recon on standalone poi...
+1080393,SEM-0065,[IDT] — Feature Request for Validation of RCM Data in 3.1D and TA2+4A3
+1079760,SEM-0066,[GL Stream] — GL recon at GSTIN level
+1072402,SEM-0067,[IDT] — Feature : User has requested that alerts for any ingestion failures...
+1066900,SEM-0068,[IDT] — Feature Request
+1063022,SEM-0069,[IDT] — Auto Linking of Invoice and CDN in 2B vs PR Reconciliation
+1078567,SEM-0070,[DT] — Even though the challans have been synced as you can see in the bel...
+1071665,SEM-0071,[IDT] — Feature Request
+1073235,SEM-0072,[GL Stream] — Turnover Recon for the purpose of GSTR 9C
+1078476,SEM-0073,[IDT] — Matching Key Option is available for SR reconciliation
+1059945,SEM-0073,[IDT] — Matching Key Option is available for SR reconciliation
+1077808,SEM-0074,[IDT] — Excel uploader facility for Grouping
+1059869,SEM-0075,[IDT] — Reconciliation Report
+1058952,SEM-0076,[IDT] — Filing tracker report to be auto-sent to tax head over e-mail after...
+1078577,SEM-0077,[DT] — EDIT option TDS UI
+1066028,SEM-0078,[IDT] — FR: Need error message as per the validations
+1078188,SEM-0079,[IDT] — Feature Request - PAN-level availability of PDFs for already-paid G...
+1073960,SEM-0080,[IDT] — Locking of filed return (transaction level)
+1071344,SEM-0080,[IDT] — Locking of filed return (transaction level)
+1076393,SEM-0081,[IDT] — Electronic Credit Reversal & RCM Statement
+1065100,SEM-0082,[IDT] — Inconsistent Document Number Matching Logic in G1 vs SR and 2B vs PR
+1059942,SEM-0083,[IDT] — Feature Request
+1053666,SEM-0084,[IDT] — Feature request to enable searching for multiple document numbers i...
+1077806,SEM-0085,[IDT] — Time stamp required in Restore documents.
+1049910,SEM-0086,[IDT] — Provide option to upload excel file for User Access Management
+1035306,SEM-0087,[IDT] — Repository of all the recons with time stamp
+1058944,SEM-0088,[IDT] — Need facility to make GST payment through Clear portal
+1058945,SEM-0088,[IDT] — Need facility to make GST payment through Clear portal
+1076262,SEM-0089,[IDT] — Feature Request - ISD Document ingestion via Purchase register for...
+1079928,SEM-0090,[GL Stream] — GL Stream - Need further split in Sub-status column in Revenue GL
+1068823,SEM-0091,[IDT] — requiredG9 templet
+1077824,SEM-0092,[IDT] — Accepted PR values should be appear in 4A(5) instead of 2B values i...
+1076265,SEM-0093,[IDT] — Feature Request - Provide a report of documents still forming part...
+1060147,SEM-0094,[IDT] — Required some additional details in Cleartax Doc level Sales report
+1079694,SEM-0095,[IDT] — Reversal & Reclaim Document Level Report
+1073233,SEM-0096,[IDT] — Feature request on GSTN Verification report
+1077814,SEM-0097,[IDT] — Option to select ITC Ineligible as per 2B
+1079759,SEM-0098,[GL Stream] — Custom fields in GL recon
+1049600,SEM-0099,[IDT] — Feature Request - Visibility on UI for any processing stuck at GST...
+1058504,SEM-0100,[IDT] — Feature Request
+1078189,SEM-0101,[IDT] — Feature Request - GSTR-1/GSTR-3B Filed PDF for more than 1 return p...
+1059865,SEM-0102,[IDT] — GST Filing Tracker Enhancement
+1076395,SEM-0103,[IDT] — Additional Fields required in Purchase Day Book (As per Rule 54(1A))
+1043165,SEM-0104,[IDT] — GSTR-1 filing date required in IMS vs PR recon report
+1077820,SEM-0105,[IDT] — Require Match/Unmatch identification of each line item in recon on...
+1081612,SEM-0106,[IDT] — Activity Log

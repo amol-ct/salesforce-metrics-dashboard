@@ -1,0 +1,1062 @@
+[
+  {
+    "cluster": {
+      "id": "SEM-0003",
+      "label": "[IDT] \u2014 Ozonetel Call: 919845097174 | UCID: 24068387531106302 | Date: 14/01..."
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0010",
+      "label": "[GL Stream] \u2014 In GL Recon - Individual Tax values to be shown"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0020",
+      "label": "[IDT] \u2014 Ineligible ITC column in 2B vs PR Recon"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0018",
+      "label": "[IDT] \u2014 Feature Request - Acceptance of TDS/ TCS Credits"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0080",
+      "label": "[IDT] \u2014 Locking of filed return (transaction level)"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0016",
+      "label": "[IDT] \u2014 Feature Request - Cash Ledger Report & ITC Credit Ledger Report"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0056",
+      "label": "[IDT] \u2014 Feature request - Provide visibility about \"Upload Status\" of docum..."
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0099",
+      "label": "[IDT] \u2014 Feature Request - Visibility on UI for any processing stuck at GST..."
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0017",
+      "label": "[IDT] \u2014 IMS Console - Warning flag"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0025",
+      "label": "[IDT] \u2014 Warning sign if any doc which is claimed in recon is changed/amende..."
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0026",
+      "label": "[IDT] \u2014 Require unique remarks of \"Mismatched Fields\" after considering thr..."
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0033",
+      "label": "[GL Stream] \u2014 Single recon for Revenue GL and Output tax GL"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0039",
+      "label": "[IDT] \u2014 Reconciliation Result dashboard - As per Trent Remark."
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0040",
+      "label": "[IDT] \u2014 Bulk error report"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0046",
+      "label": "[IDT] \u2014 Provide complete PR Register and it should match with filed GSTR-3B..."
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0052",
+      "label": "[IDT] \u2014 Freeze Reconciliation Result with line item from FY 23-24 till date."
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0059",
+      "label": "[IDT] \u2014 Maintain the details of ITC claimed, ITC reversed under 180 days an..."
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0060",
+      "label": "[IDT] \u2014 Documents should not merge"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0066",
+      "label": "[GL Stream] \u2014 GL recon at GSTIN level"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0074",
+      "label": "[IDT] \u2014 Excel uploader facility for Grouping"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0085",
+      "label": "[IDT] \u2014 Time stamp required in Restore documents."
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0092",
+      "label": "[IDT] \u2014 Accepted PR values should be appear in 4A(5) instead of 2B values i..."
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0097",
+      "label": "[IDT] \u2014 Option to select ITC Ineligible as per 2B"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0098",
+      "label": "[GL Stream] \u2014 Custom fields in GL recon"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0105",
+      "label": "[IDT] \u2014 Require Match/Unmatch identification of each line item in recon on..."
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0054",
+      "label": "[IDT] \u2014 Feature Request - Availability of Electronic Liability Ledger"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0088",
+      "label": "[IDT] \u2014 Need facility to make GST payment through Clear portal"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0036",
+      "label": "[IDT] \u2014 Activation of Duplication layer in data overview for Purchase"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0008",
+      "label": "[IDT] \u2014 Reconciliation of E-way bill should also happen separately with del..."
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0035",
+      "label": "[IDT] \u2014 Rule 43 Automatic reversal computation in GSTR 3B"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0045",
+      "label": "[IDT] \u2014 Annual Return (GSTR 9/9C)"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0049",
+      "label": "[IDT] \u2014 Reports - Enablement of Multi-PAN selection option"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0072",
+      "label": "[GL Stream] \u2014 Turnover Recon for the purpose of GSTR 9C"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0081",
+      "label": "[IDT] \u2014 Electronic Credit Reversal & RCM Statement"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0096",
+      "label": "[IDT] \u2014 Feature request on GSTN Verification report"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0103",
+      "label": "[IDT] \u2014 Additional Fields required in Purchase Day Book (As per Rule 54(1A))"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0073",
+      "label": "[IDT] \u2014 Matching Key Option is available for SR reconciliation"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0015",
+      "label": "[IDT] \u2014 Feature Request : Add new columns ITC Claim (as per 8A) , ITC Claim..."
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0053",
+      "label": "[IDT] \u2014 Validation for Recipient billing state and state code should be same"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0087",
+      "label": "[IDT] \u2014 Repository of all the recons with time stamp"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0002",
+      "label": "[IDT] \u2014 Group ID locking"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0050",
+      "label": "[IDT] \u2014 PR Documents coming in Individual Error Report but missing in Bulk..."
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0001",
+      "label": "[IDT] \u2014 Filing status of Quarterly filers"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0004",
+      "label": "[IDT] \u2014 GSTR-1A Download"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0075",
+      "label": "[IDT] \u2014 Reconciliation Report"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0102",
+      "label": "[IDT] \u2014 GST Filing Tracker Enhancement"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0038",
+      "label": "[IDT] \u2014 Voucher date column in 2A v/s PR, 2B v/s PR Report"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0063",
+      "label": "[IDT] \u2014 Consolidated file instead of split files"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0021",
+      "label": "[IDT] \u2014 Feature request : Data Overview | Import History"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0104",
+      "label": "[IDT] \u2014 GSTR-1 filing date required in IMS vs PR recon report"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0009",
+      "label": "[IDT] \u2014 Feature Request - Provide a summary of the Tax values of all the li..."
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0089",
+      "label": "[IDT] \u2014 Feature Request - ISD Document ingestion via Purchase register for..."
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0093",
+      "label": "[IDT] \u2014 Feature Request - Provide a report of documents still forming part..."
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0044",
+      "label": "[IDT] \u2014 Option of Advance Amendment as Document Type using CT Sales Template"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0034",
+      "label": "[IDT] \u2014 Feature Request for Reject Action in GSTR 2B vs PR Reconciliation"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0051",
+      "label": "[IDT] \u2014 Feature Request for GSTR 2B vs PR Reconciliation"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0084",
+      "label": "[IDT] \u2014 Feature request to enable searching for multiple document numbers i..."
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0095",
+      "label": "[IDT] \u2014 Reversal & Reclaim Document Level Report"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0037",
+      "label": "[GL Stream] \u2014 GL Type Column in GL Stream"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0005",
+      "label": "[IDT] \u2014 Data upload GSTR 6"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0007",
+      "label": "[IDT] \u2014 B2C supplies"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0022",
+      "label": "[IDT] \u2014 Pending RCM Liability Statement"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0042",
+      "label": "[IDT] \u2014 Missing MY GSTIN check"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0057",
+      "label": "[IDT] \u2014 Bulk Filing option for TCS registration"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0062",
+      "label": "[IDT] \u2014 E-invoice reconciliation"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0094",
+      "label": "[IDT] \u2014 Required some additional details in Cleartax Doc level Sales report"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0067",
+      "label": "[IDT] \u2014 Feature : User has requested that alerts for any ingestion failures..."
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0043",
+      "label": "[IDT] \u2014 Give GSTR-9 table 6 references in table 4 snapshot report"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0058",
+      "label": "[IDT] \u2014 2B vs PR Recon visiblity"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0019",
+      "label": "[IDT] \u2014 Feature Request"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0011",
+      "label": "[IDT] \u2014 Limit \"Recalculate Payment Recommendation\" to only the selected inv..."
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0024",
+      "label": "[IDT] \u2014 Bulk error file should show either ingestion error which are only p..."
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0030",
+      "label": "[IDT] \u2014 DSC signing on auto-generated ISD distribution invoice PDFs"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0031",
+      "label": "[IDT] \u2014 Need change in document level rules for Missing and Mismatch vouchers"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0055",
+      "label": "[IDT] \u2014 Rule 37 (180 Day) - Our platform should highlight the cases where p..."
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0076",
+      "label": "[IDT] \u2014 Filing tracker report to be auto-sent to tax head over e-mail after..."
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0078",
+      "label": "[IDT] \u2014 FR: Need error message as per the validations"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0012",
+      "label": "[DT] \u2014 26AS recon manual linking feature"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0013",
+      "label": "[IDT] \u2014 Ingestion of ISD Documents via Clear Purchase Template"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0041",
+      "label": "[IDT] \u2014 Remove the Group id and group remarks feature in 2A vs PR Recon"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0064",
+      "label": "[IDT] \u2014 removal of g1/G3B filing status in 2A vs PR Recon on standalone poi..."
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0069",
+      "label": "[IDT] \u2014 Auto Linking of Invoice and CDN in 2B vs PR Reconciliation"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0029",
+      "label": "[IDT] \u2014 Supply type Bifurcation"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0068",
+      "label": "[IDT] \u2014 Feature Request"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0083",
+      "label": "[IDT] \u2014 Feature Request"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0023",
+      "label": "[IDT] \u2014 GST report requirements from Clear Tax"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0086",
+      "label": "[IDT] \u2014 Provide option to upload excel file for User Access Management"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0090",
+      "label": "[GL Stream] \u2014 GL Stream - Need further split in Sub-status column in Revenue GL"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0065",
+      "label": "[IDT] \u2014 Feature Request for Validation of RCM Data in 3.1D and TA2+4A3"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0071",
+      "label": "[IDT] \u2014 Feature Request"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0006",
+      "label": "[IDT] \u2014 Restrict action on Time barred Invoice"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0061",
+      "label": "[IDT] \u2014 GSTR-6 SEZ Recipient Bifurcation while gnerating ISD documents"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0079",
+      "label": "[IDT] \u2014 Feature Request - PAN-level availability of PDFs for already-paid G..."
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0101",
+      "label": "[IDT] \u2014 Feature Request - GSTR-1/GSTR-3B Filed PDF for more than 1 return p..."
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0047",
+      "label": "[Notice Tracker] \u2014 Feature Request for Notice Management"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0014",
+      "label": "[IDT] \u2014 GSTR -1A Filing Tab Not showing in Filing Tracker Report"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0077",
+      "label": "[DT] \u2014 EDIT option TDS UI"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0070",
+      "label": "[DT] \u2014 Even though the challans have been synced as you can see in the bel..."
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0100",
+      "label": "[IDT] \u2014 Feature Request"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0027",
+      "label": "[IDT] \u2014 Supplier Name Prefix Filter Not Returning Results in Data Overview"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0032",
+      "label": "[IDT] \u2014 Request for Validation of Advance Amendment Auto-Population Functio..."
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0048",
+      "label": "[IDT] \u2014 Recon Report Without Rerunning Recon"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0082",
+      "label": "[IDT] \u2014 Inconsistent Document Number Matching Logic in G1 vs SR and 2B vs PR"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0028",
+      "label": "[IDT] \u2014 Feature Request - Provide the option to ingest the GSTR-9/9C data w..."
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0091",
+      "label": "[IDT] \u2014 requiredG9 templet"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  },
+  {
+    "cluster": {
+      "id": "SEM-0106",
+      "label": "[IDT] \u2014 Activity Log"
+    },
+    "decision": "POSSIBLY_SHIPPED",
+    "confidence": 0.3,
+    "reason": "Documentation corpus unavailable in current environment. PM verification required.",
+    "evidence": []
+  }
+]

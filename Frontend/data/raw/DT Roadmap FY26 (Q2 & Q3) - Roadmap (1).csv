@@ -1,0 +1,142 @@
+Capability,AOP Goals until 31-Dec,Theme,Stack Rank,QTR,Epic/Category,Summary,Status,"Prod Date
+(Projected)",Customer facing Date,PM,EM,Effort (In Person Weeks),Remark,Swaroop Remarks,Priority,Sprint,Story points,PM Owner,Status,Priority,Efforts,Is Demo Needed  or Completed,Roadmap ID
+DT,Make the tax ops engine 'utility grade',Usage to Success,1,Q2,Filing,"UI/UX improvements Phase 1
+Pending
+
+- Informational banner for Form 16A 
+- Deductee Name based Search Filter -  In Sprint 17
+- Justification Report -> Excel direct conversion - 
+- Challan validation change 
+
+
+Done
+- PAN Verification - Done
+- Mandatory fields for 24Q, 26Q, 27Q, 27EQ. - Done except 27EQ
+- Challan autotagging while creation - Done
+- Some filters while tagging challan - Done, some in Sprint 17
+-- Unprotect the zip file for downloading form 16/16A - Done
+- Simplify ingestion template for filing - section synonyms - Done
+- Auto-fill KYC logic change - DONE
+- - Changes to ensure that user files using right FVU version after government update - DONE
+- Challan subtotal while tagging
+- Autopopulating PRN of last quarter while FVU generation Done",Done,5-Oct-2025,3-Nov-2025,Swastika Nayak,Dheeraj Shukla,3,,"This should be higher up in the stack rank
+
+Also, adding section filters everywhere is also important",P0,Aug 1,,,,,,,
+DT,Reduce infra costs,capex,1,,CI enablement in TDS,CI enablement in DT ,Done,5-Sep-2025,4-Oct-2025,Dheeraj Shukla,Dheeraj Shukla,,,,,,,,,,,,
+DT,Make the tax ops engine 'utility grade',Usage to Success,2,Q2,26AS Recon,"26AS enhancements 
+In scope
+- Manual Mapping  
+- Name based Fuzzy matching",Done,22-Sep-2025,21-Oct-2025,Aayushi Garg,Dheeraj Shukla,,,Other parts in 26AS -> Why is this a priority,P0,July 2,,,,,,,
+DT,Reduce infra costs,capex,2,,Capex,"Cost saving activity, Ingestion movement to activity processor V2(phase 1)",Done,22-Aug-2025,20-Sep-2025,Dheeraj Shukla,Dheeraj Shukla,,,,,,,,,,,,
+DT,Make the tax ops engine 'utility grade',Usage to Success,3,,TDS Workbench - Enhancements,"TDS workbench UI/UX improvements for GA
+- 5 to 6 UI/UX items
+- engg hygiene to be completed ",Done,5-Oct-2025,3-Nov-2025,Vignesh V,Dheeraj Shukla,,,,,,,,,,We need hadsup before GA and clean list of items For estimates. Else we might have spill over and risk on FE efforts,,
+DT,Reduce infra costs,capex,3,,Capex,MongoDB Upgrade - Planned,Done,29-Sep-2025,,Dheeraj Shukla,Dheeraj Shukla,,,,,,,,,,,,
+DT,Make the tax ops engine 'utility grade',Usage to Success,3,Q4,Filing - Gov changes,Income Tax bill 2025 : Section and Rate changes & others,To Do,31-Mar-2026,,,,,,,,,,,,,,,
+DT,Make the tax ops engine 'utility grade',Usage to Success,3,Q4,Filing - KTLO,"Filing KTLO 
+- Q4 Filing Govt changes (if any)
+- Metrics moving UI/UX improvements
+- Customer success mania - accepted feature requests/bugs - create challan via company and other than company filter, justification file -> excel direct conversion
+
+Q4 filing tickets 
+Challan FY validation , Adding TDS rate in filing flow, Justification Report Excel download, Company and Non company option for Challan creation, TDS Certificate Generation Improvements",In Progress,30-April-2026,,,,,,,,,,,,,,No,
+DT,Make the tax ops engine 'utility grade',Usage to Success,,Q4,26AS Recon,"- Save PAN ID and password
+- UI deletion of TRL entries",In Progress,20-Feb-2026,20-Feb-2026,Swastika Nayak,Dheeraj Shukla,,,,,,,,,,,No,
+DT,Make the tax ops engine 'utility grade',Usage to Success,4,Q3,TDS Workbench - Enhancements,"Recommended Net-off Enhancements (AI / Non AI Solve)
+- Bulk/Consolidated Net-offs - will Go Live Jan 1st week. 
+- Best fit net-offs - DONE
+- Previous Qtr Net-off (low priority, not for Q4)  
+- Recommendations for net-off should consider TDS rate as well  - DONE",In Progress,5-Jan-2026,TBD,Vignesh V,Dheeraj Shukla,,,,P0,Aug 1,,,,,,No,
+DT,Reduce infra costs,capex,4,,Capex, Poc for liquibase -- CF - Planned,Deferred,22-Sep-2025,,Dheeraj Shukla,Dheeraj Shukla,,,,,,,,,,,,
+DT,GTM Levers,GTM,5,Q2,TDS Rationalisation,"TDS Rationalisation Logic and UX Improvements <placeholder> 
+based on customer feedbacks by end of 31 Aug 2025",Done,5-Oct-2025,3-Nov-2025,Vignesh V,Dheeraj Shukla,,,,,,,,,,,,
+DT,Reduce infra costs,capex,5,Q4,Capex,"Cost saving activity, Ingestion movement to activity processor V2()(phase 2) - Planned",In Progress,22-Sep-2025,21-Oct-2025,Dheeraj Shukla,Dheeraj Shukla,,,,,,,,,,,No,
+DT,GTM Levers,GTM,5,Q2,TDS Rationalisation,"TDS PR preparation via GL stream
+- Incl. Linking Expense line to TDS line within same accounting entry",Done,30-Sep-2025,TBD,Vignesh V,Dheeraj Shukla,,,Why isn't htis higher priority?,P0,Aug 1,,,,,,,
+DT,Make the tax ops engine 'utility grade',Usage to Success,6,Q4,Filing - Bug Fix,Govt credentials Settings issue fixes and improvements - for RPA improvement tech debt  JIRA https://cleartaxtech.atlassian.net/browse/GSTF-7761,In Progress,12-Mar-2026,,,,,,,,,,,,,,No,
+DT,Reduce infra costs,capex,6,,Capex,Handling high volume ingestion/FVU generation/certificate generation -- Backend,Deferred,5-Nov-2025,4-Dec-2025,Dheeraj Shukla,Dheeraj Shukla,,,,,,,,,,,,
+DT,Make the tax ops engine 'utility grade',capex,6,Q3,CI/CD enablement in TDS,Unit/Integration test case coverage (part-2) - Target 90%,In Progress,22-Nov-2025,21-Dec-2025,Dheeraj Shukla,Dheeraj Shukla,,,,,,,,,,,No,
+DT,Make the tax ops engine 'utility grade',capex,6,,"CD enablement 
+Org Wide",POC for Liqibase,Deferred,22-Dec-2025,20-Jan-2026,Dheeraj Shukla,Dheeraj Shukla,,,,,,,,,,,,
+DT,Make the tax ops engine 'utility grade',Usage to Success,7,Q3,TDS Workbench - Enhancements,"Custom Template enablement for importing TDS payables data transformed via UI (GL via UI). 
+Kalpataru is the first customer here",In Progress,,,,,,,,,,,,,,,Yes,
+DT,Reduce infra costs,capex,7,,Capex,Batch processing of Certificate generation & Signing & associated UX -- Backend,Deferred,22-Oct-2025,20-Nov-2025,Dheeraj Shukla,Dheeraj Shukla,,,,,,,,,,,,
+DT,GTM Levers,GTM,8,Q4,TDS Rationalisation,"Mapping TDS line with Expense line. 
+Refer for brief scope & slack thread for more details",In Progress,"20-JAN-2026 (QA ready)
+5-FEB-2026 (PROD) ",,,,12 days,,,,,,,,,,No,
+DT,GTM Levers,GTM,9,Q4,TDS Rationalisation,"Walkthrough of gap between all the Expense GL entries and those subset of entries considered for Rationalisation.
+-Summary page will be showing now ""Total value from GL"" and ""Considered in rationalization"" and ""Ignored/Excluded documents"". spec",In Progress,,,,,Will be finalized on Friday. Internal tech team reference: Feb 2026 end. ,,,,,,,,,,Yes,
+DT,GTM Levers,GTM,9,Q2,TDS Rationalisation,"GR/SR / Temporary GL <> IR linking
+Refer for scope. This is already developed by Aditya M, Aishwarya V",Done,22-Sep-2205,21-Oct-2205,Vignesh V,Dheeraj Shukla,,,,P0,Aug 2,,,,,,,
+DT,GTM Levers,GTM,10,Q4,TDS Rationalisation,"Fetching Actual Expense GL info of Invoice entries from the GR<>IR linkage
+Refer for brief scope
+Note: GR<>IR linkage is currently tightly coupled with Expense GL vs PR recon which needs to be de-coupled. ",To Do,,,,,Will be finalized on Friday. Internal tech team reference: ,,,,,,,,,,,
+DT,GTM Levers,GTM,11,Q4,TDS Rationalisation,"Automated Model Training
+- First time training on bulk data (Q4). Refer associated AI team roadmap team
+- Continuous training on incremental data coming from ERP (DEFER)
+- Feedback loop based training on user actions/changes on the Clear recommended sections (DEFER)",In Progress,"20-JAN-2026 (QA ready)
+5-FEB-2026 (PROD) ",,,,5 days,,,,,,,,,,Yes,
+DT,GTM Levers,GTM,12,Q4,TDS Rationalisation,"Ignition Stage UX  for Rationalisation Run
+- Business & FY selection
+- Review data summary
+- Sync LDC, PAN status
+- Review Config settings
+- First time model training for the specific customer data ",To Do,22-Nov-2025,21-Dec-2025,Vignesh V,Dheeraj Shukla,,(Assuming feedbacks will be clsed by Sept),,P1,,,,,,,,
+DT,GTM Levers,GTM,13,Q4,TDS Rationalisation,"Rate variances enhancements
+- Settings config for skipping section recommendation [ BE complete, FE to do]
+- Exclude certain non applicable Vendors / Expenses from Rate validation checks via Settings. ",To Do,,,,,,,,,,,,,,,,
+DT,GTM Levers,GTM,14,Q4,TDS Rationalisation,"GL config settings in GL stream to include/exclude Expense GL codes for Clause-34 feature
+Also, refer associated AI roadmap item",To Do,,,,,,,,,,,,,,,,
+DT,GTM Levers,GTM,15,Q4,TDS Rationalisation,"Section variances enhancements (to be evaluated based on EA feedbacks)
+- Option to skip section determination for TDS deducted entries & consider Books section as-is",Eval. pending,,,,,,,,,,,,,,,,
+DT,GTM Levers,GTM,16,Q4,TDS Rationalisation,"Platform items for Rationalisation
+* Licensing (How will handle for customers who have not opted for Rationalisation feature / CCC DT Prime? )
+* UAM 
+* Custom Fields for TDS PR, Remarks
+* Synonyms for Sections
+* Bulk Error report in Import history",To Do,22-Nov-2025,21-Dec-2025,Vignesh V,Dheeraj Shukla,,"(
+GA Items)",,P1,Aug 2,,,,,,,
+DT,Reduce infra costs,capex,20,,Capex,mongo data will be synced to iceberg and that data we will show on data browser,To Do,22-Nov-2025,21-Dec-2025,Dheeraj Shukla,Dheeraj Shukla,,,,,,,,,,,,
+DT,GTM Levers,GTM,22,Q4,TDS Rationalisation,"Close the loop on Variances 
+- Actions such as Edit Clear recommended variances / Accept book or clear values 
+- Final Clause-34 based on user actions",To Do,22-Nov-2025,TBD,Vignesh V,Dheeraj Shukla,,(Assuming feedbacks will be clsed by Sept),,P0,,,,,,,,
+DT,Make the tax ops engine 'utility grade',Usage to Success,22,,TDS Workbench - Enhancements,Net-off report enhancements for Monthly Challan payment JTBD,Eval. pending,,,,,,,,,,,,,,,,
+DT,Make the tax ops engine 'utility grade',Usage to Success,22,Q2,Filing,"UI/UX Improvements Phase 2
+
+- Automatically do workflows wherever we don't need TRACES/CAPTCHA details
+- Simplify Import, Verify and Sync Flows for Challan and LDC
+- Multiple template ingestions leading to header issues causing the count to double creating mismatch, blocking FVU generation
+- Bulk PAN verification using API.
+- Handling high volume ingestion/FVU generation/certificate generation",To Do,5-Dec-2025,3-Jan-2026,Swastika Nayak,Dheeraj Shukla,,,This should be higher up in the stack rank,P0,July 2,,,,,,,
+DT,Make the tax ops engine 'utility grade',Usage to Success,22,Q2,Filing,"Form 16/16A Certificate generation flow improvements Phase 1
+
+- UX improvements for DSC based signing (Java version / Clear signer utility communications)
+- Resume Certificate signing process from the last left-off stage
+",To Do,22-Nov-2025,21-Dec-2025,Swastika Nayak,Dheeraj Shukla,,,"This should be higher up in the stack rank
+
+What's ""vendor contact master improvements"" and why are we doing it? How many people are using it?",P1,Aug 2,,,,,,,
+DT,Make the tax ops engine 'utility grade',Usage to Success,22,,Filing - Form 16/16A,"Form 16/16A Certificate generation flow improvements Phase 2(Desktop utility)
+- Password protect for DSC method of signing
+- Custom page signing for DSC method
+- Custom page form 16 enablement using e-doc signer 
+- Vendor Contact master improvements
+- Email flow unblocking for form 16a/16/27d generation
+- Clear communication to customer for capacity.",Deferred,TBD,,,,,,,,,,,,,,,
+DT,Make the tax ops engine 'utility grade',Usage to Success,22,,Filing - Potential Notice Deflection Improvements ,"Potential Notices Improvement
+- Prevent highlighting potential notices for Late Fees, Interest if Challan already has payment
+- Short deduction amount should be shown at deductions level
+- Implement Pro-rata LDC Balance Adjustment
+",Deferred,22-Oct-2025,20-Nov-2025,Swastika Nayak,Dheeraj Shukla,,,,P2,Sep 2,,,,,,,
+DT,Make the tax ops engine 'utility grade',Usage to Success,25,,26AS Recon,TRL via GL stream,To Do,30-April-2026,29-May-2026,Aayushi Garg,Dheeraj Shukla,,,,P1,Aug 2,,,,,,,
+DT,Make the tax ops engine 'utility grade',Usage to Success,25,,26AS Recon,Deductor Communication,Eval. pending,TBD,#VALUE!,Aayushi Garg,Dheeraj Shukla,,,We should drop this,P2,,,,,,,,
+DT,Make the tax ops engine 'utility grade',Usage to Success,30,,26AS Recon,"26AS enhancements Phase 2
+- Other parts in 26AS (Part 3 & 4)
+- enabling 3 yrs for 26as recon
+- Additional fields in reports
+- report simplification",Eval. pending,TBD,#VALUE!,Swastika Nayak,Dheeraj Shukla,,,,,,,,,,,,
+DT,GTM Levers,GTM,30,,TDS Rationalisation,Audit Trail of Rationalisation results and Actions,Deferred,TBD,,Vignesh V,Dheeraj Shukla,,,,P2,,,,,,,,
+DT,GTM Levers,GTM,30,Q3,TDS Rationalisation,"Rate determination edge cases
+- LDC partially eligible for Invoice
+- Multiple LDCs for same PAN, section and duration
+- Section threshold checks across TANs under the PAN",Deferred,TBD,#VALUE!,Vignesh V,Dheeraj Shukla,,,Edge cases must be higher priority,P2,,,,,,,,
+DT,Reduce infra costs,capex,,,CI enablement in TDS,Unit/Integration test case coverage (part-1) - Target 80%,Done,22-Nov-2025,21-Dec-2025,Dheeraj Shukla,Dheeraj Shukla,,,,,,,,,,,,

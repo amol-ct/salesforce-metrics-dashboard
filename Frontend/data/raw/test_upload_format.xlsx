@@ -1,0 +1,3 @@
+id	products_available__c	casenumber	subject	status	priority	createddate	case_record_type__c	customer_segment__c	account_id	account_name	account_pan	account_industry	customer_type	segment	account_category	turnover	account_owner_email	account_total_arr	rn
+TEST001	Clear Finance Cloud	CASE-12345	Test Issue 1	Open	High	2024-01-15	Support	Enterprise	ACC001	Test Company Ltd	ABCDE1234F	Technology	Direct	Premium	A	50000000	owner@test.com	1500000	1
+TEST002	GST Product	CASE-12346	Test Issue 2	Closed	Medium	2024-01-20	Feature Request	SMB	ACC002	Another Company	FGHIJ5678K	Manufacturing	Partner	Standard	B	25000000	owner2@test.com	750000	2
