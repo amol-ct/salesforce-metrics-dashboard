@@ -114,13 +114,10 @@ public class MetricsServiceImpl implements MetricsService {
         conditions.add("c.type = 'Feature'");
         // LAST 6 MONTHS DATA
         conditions.add("CAST(c.createddate AS TIMESTAMP) >= date_add('month', -6, current_timestamp)");
+        conditions.add("c.customer_segment__c='B2B - Enterprise'");
 
         if (filter.getCase_record_type__c() != null && !filter.getCase_record_type__c().isEmpty()) {
             conditions.add("c.case_record_type__c IN " + buildInClause(filter.getCase_record_type__c()));
-        }
-
-        if (filter.getCase_record_type__c() != null && !filter.getCase_record_type__c().isEmpty()) {
-            conditions.add("c.customer_segment__c IN " + buildInClause(filter.getCase_record_type__c()));
         }
 
         if (filter.getType() != null && !filter.getType().isEmpty()) {

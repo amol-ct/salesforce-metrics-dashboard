@@ -1391,7 +1391,7 @@ class AppHandler(SimpleHTTPRequestHandler):
 
     def proxy_sf_generate(self, payload):
         """Proxy request to Salesforce API to generate Excel file"""
-        sf_base_url = os.environ.get("SF_PROXY_BASE_URL", "http://localhost:8090").rstrip("/")
+        sf_base_url = os.environ.get("SF_PROXY_BASE_URL", "http://localhost:8080").rstrip("/")
         try:
             outbound_payload = dict(payload or {})
             now_utc = datetime.utcnow()
@@ -1497,7 +1497,7 @@ class AppHandler(SimpleHTTPRequestHandler):
             return
 
         try:
-            sf_base_url = os.environ.get("SF_PROXY_BASE_URL", "http://localhost:8090").rstrip("/")
+            sf_base_url = os.environ.get("SF_PROXY_BASE_URL", "http://localhost:8080").rstrip("/")
             sf_url = f"{sf_base_url}/public/metrics/downloadExcel/{file_id}"
             req = request.Request(sf_url, method="GET")
             with request.urlopen(req, timeout=30) as response:

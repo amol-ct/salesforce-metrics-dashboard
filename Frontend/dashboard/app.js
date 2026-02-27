@@ -1968,7 +1968,7 @@ async function downloadSalesForceData() {
       },
       body: JSON.stringify({
         "case_record_type__c": ["B2B Enterprise"],
-        "customer_segment__c": ["B2B-Enterprise"],
+        customer_segment__c: [],
         "type": [],
         "last_n_months": 6
       })
